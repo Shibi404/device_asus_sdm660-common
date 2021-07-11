@@ -471,7 +471,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-include device/qcom/common/av/qti-av.mk
-include device/qcom/common/telephony/qti-telephony.mk
-include device/qcom/common/vibrator/qti-vibrator.mk
-include device/qcom/common/gps/qti-gps.mk
+# QTI-COMMON
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    telephony \
+    vibrator \
+    gps

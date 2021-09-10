@@ -449,6 +449,3 @@ PRODUCT_PACKAGES += \
     libmediaextractorservice \
     libnl \
     libstagefright_enc_common
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
